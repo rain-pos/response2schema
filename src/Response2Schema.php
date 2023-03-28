@@ -7,6 +7,7 @@ namespace DSuurlant\Response2Schema;
 use cebe\openapi\exceptions\IOException;
 use cebe\openapi\Writer;
 use DSuurlant\Response2Schema\Parser\JsonParser;
+use Symfony\Component\Yaml\Yaml;
 
 final class Response2Schema
 {
