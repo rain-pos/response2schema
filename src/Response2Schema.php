@@ -36,4 +36,11 @@ final class Response2Schema
 
         throw SorryCouldNotGenerateOpenApiFile::becauseTheOutputFileIsNotInAValidFormat($output);
     }
+    
+    public static function generateYamlFromJson(string $inputContent, string $output): string
+    {
+        $spec = JsonParser::parse($inputContent);
+        $data = $spec->getSerializableData();
+        return Yaml::dump($data, 12, 4, Yaml::DUMP_OBJECT_AS_MAP);
+    }
 }
