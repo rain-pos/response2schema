@@ -10,9 +10,9 @@ Supports generating an OpenAPI spec in `JSON` or `yaml`.
 
 # Installation
 
-`composer require dsuurlant/response2schema`
+`composer require rain-pos/response2schema`
 
-Or download the phar from the [Releases page](https://github.com/dsuurlant/response2schema/releases).
+Or download the phar from the [Releases page](https://github.com/rain-pos/response2schema/releases).
 
 # Usage
 
@@ -75,7 +75,7 @@ The best way to use this tool is to take this as a starting point, or copy-paste
  
 # Credits
 
-Built and maintained by [Daniëlle Suurlant](https://github.com/dsuurlant).
+Forked from [Daniëlle Suurlant](https://github.com/dsuurlant).
 
 Relies heavily on the awesome PHP OpenAPI library [cebe/php-openapi](https://github.com/cebe/php-openapi).
 

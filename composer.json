@@ -1,5 +1,5 @@
 {
-    "name": "dsuurlant/response2schema",
+    "name": "rain-pos/response2schema",
     "description": "Generate an OpenAPI schema definition for an object based on a JSON response.",
     "type": "library",
     "license": "MIT",
